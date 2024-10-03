@@ -33,7 +33,21 @@ Effective exception handling improves code robustness, enhances user experience 
    - b. If false, calculate `ans = n1 / n2`.
    - c. Print the result: `Answer = ans`.
 6. **Catch Block**:
-   - a. If an exception is caught, display the error message: "ERROR: Division by `num`".
-7. **End**
+7.   - a. If an exception is caught, display the error message: "ERROR: Division by `num`".
+8. **End**
 
-This algorithm effectively manages the division operation while handling the case of division by zero.
+
+
+### Algorithm 
+
+1. **Start**
+2. **Declare Variables**: Initialize `age` and `elage` as float.
+3. **Try Block**:
+   - a. Prompt the user: "Enter your age: ".
+   - b. Read the user's input into `age`.
+   - c. Check if `age` is less than or equal to 18.
+      - i. If true, throw `age` as an exception.
+   - d. If false, print: "You can vote!! As you are `age`".
+4. **Catch Block**:
+   - a. If an exception is caught (invalid age), print: "Not applicable for voting: `invalidAge`".
+5. **End**
